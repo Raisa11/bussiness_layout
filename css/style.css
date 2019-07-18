@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+
+background: black;
+}
+header h1{color: white;
+	text-align: center;}
+header h1 a{
+    color: seagreen;
+    font-size: 12px;
+    text-decoration: none;
+}
+nav{
+	border-bottom: 1px solid;
+
+}
+nav ol{
+    padding: 0;
+    text-align: center;
+}
+nav ol li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ol li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #333;
+    font-size: 20px;
+    padding: 8px 20px;
+    display: block;
+}
+nav ol li a:hover{
+	background: seagreen;
+    color: white;
+}
+.heading{
+	text-align: center;
+	padding: 50px 0;
+}
+.heading h1{
+	font-size: 22px;
+	
+
+}
+.heading p{
+	font-size: 14px;
+}
+.container{
+width: 1200px;
+    margin: auto;
+}
+aside{ width: 20%;
+    float: left;
+    padding: 15px; }
+aside ul{
+	padding: 0;
+}
+aside ul li{ list-style: none; }
+aside ul li a{
+	color: #666;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 0;
+    display: block;
+}
+aside ul li a:hover{}
+
+ .content{
+ 	width: 80%;
+    float: left;
+    padding: 15px; 
+ }
+ .content .content-box{
+ 	width: 33.33%;
+ 	padding: 5px;
+ 	float: left;
+ }
+ .content .content-box img{
+ 	max-width: 100%;
+ }
+ .content .content-box img:hover{
+ 	opacity: 0.5;
+
+ }
+ .content .content-box h4{
+ 	color: #333;
+ 	font-size: 14px;
+ }
+.services-section{
+	overflow: hidden;
+   width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.container1{
+	background-color:#ece5e5;
+    overflow: hidden;
+    padding: 50px 0;
+    width: 100%;
+
+}
+.service{
+	width: 33.33%;
+    float: left;
+}
+
+h1{
+	font-weight: 100;
+}
+span{   
+ font-weight: bold;}
+ p{}
